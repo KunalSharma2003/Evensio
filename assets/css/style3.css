@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(../img/newbg.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header span{
+    cursor: pointer;
+    padding: 8px;
+    padding-right: 10px;
+    font-size:large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 2px solid black;
+    background-color: rgb(136, 13, 218);
+    color: white;
+    border-radius: 50px;
+    word-spacing: 2px;
+}
+header ul{
+    margin-top:  20px;
+    margin-left: 10px;
+}
+header a{
+    text-decoration: none;
+}
+.container{
+    width: 30%;
+    /* height: 50%; */
+    margin:auto;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 190px;
+    background: url(../img/Asset\ 11.png);
+    background-position: center;
+    border-radius: 30px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 40px 8px rgb(136,13,218);
+}
+.container h2{
+    font-size: 2vw;
+    padding-top: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform:capitalize;
+    font-weight: bold;
+    color: white;
+    
+}
+.container div{
+    font-size:medium;
+    padding: 10px;
+ }
+input{
+    padding: 6px;
+    font-size: 1vw;
+    width: 45%;
+    border-radius: 6px;
+}
+.Btn{
+    width: 20%;
+    padding: 15px 40px;
+    border: 2px solid black;
+    border-radius: 100px;
+    cursor:pointer;
+    text-transform:capitalize;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    background-color: rgb(136, 13, 218);
+    color:white;
+    width: 40%;   
+}
+.Btn:hover{
+    color: rgb(140,79,237) ;
+    background-color: rgb(217, 195, 247);
+}
+.container div p{
+    color: black;
+    text-transform: capitalize;
+    font-size: 0.9vw;
+    font-weight: bolder;
+    margin-left: 30px;
+    word-spacing: 2px;
+}
+.container a{
+    color: white;
+}
+.container a:hover{
+    color: rgb(0, 0, 238);
+}
+.SignUp-Form{
+    height: 100%;
+}
+.Forgotpss{
+    padding: 5px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.formerror{
+    color: red;
+    font-size: small;
+}
+@media (max-width: 900px) {
+    .container{
+        width: 50%;
+    }
+    .container h2{
+        font-size: 3vw;
+    }
+    .container div p{
+        font-size: 1.5vw;
+    }
+    .container input{
+        width: 40%;
+        font-size: 1.5vw;
+    }
+    .Btn{
+        font-size: 1.6vw;
+    }
+    .Forgotpss{
+        font-size: 1.9vw;
+    }
+}

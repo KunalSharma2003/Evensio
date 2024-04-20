@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: url(../img/newbg.jpg);
+    background-size:100% ;
+    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.container-fluid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  background:url(../img/Asset\ 11.png);
+  background-position: center;
+  width: 35%;
+  height: 70vh;
+  margin-top: 100px;
+  border-radius: 20px;
+  border: 2px solid white;
+  box-shadow: 0px 0px 40px 8px rgb(136,13,218);
+}
+.container h2{
+  text-align: center;
+  color: white;
+  font-size: 2vw;
+  padding: 10px;
+  font-weight: bold;
+  /* width: 30%; */
+}
+/* .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.container .img-fluid{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.container .span{
+  /* width: 50%; */
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  color: white;
+}
+.container .row{
+  /* border: 2px solid; */
+  margin: 10px;
+}
+
+.container label{
+  color: white;
+  word-wrap: break-word;
+}
+.container #btn{
+  text-align: center;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  background: rgb(103, 7, 167);
+  border-radius: 50px;
+}
+#btn a{
+  text-decoration: none;
+  font-size: large;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  border-radius: 60px;
+}
+#btn:hover {
+  color: rgb(140,79,237) ;
+  background-color: purple;
+  box-shadow: 0px 0px 10px 2px white  ;
+}
+@media (max-width:1000px) {
+  .container{
+    width: 50%;
+    height: 400px;
+    font-size: 1.2vw;
+  }
+  .container .img-fluid{
+    width: 40%;
+  }
+  #btn{
+    padding: 5px;
+    margin-top: 40px;
+  } 
+  #btn a{
+    font-size: 1.2vw;
+  }
+}
+@media (max-width: 700px) {
+  .container{
+    width: 60%;
+    height: 300px;
+    font-size: 2vw;
+  }
+  .container .img-fluid{
+    width: 40%;
+  }
+  #btn{
+    padding: 5px;
+    margin-top: 10px;
+  }
+  #btn a{
+    font-size: small;
+
+  }
+}
+/* h2{
+  background:url(../img/Asset\ 11.png);
+  background-position: center;
+  text-align: center;
+  color: aliceblue;
+  width: 250px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.row1 div{
+  margin-top: 40px;
+  padding-top: 5px;
+  margin-bottom: 50px;
+  margin-left: 130px;
+}
+.row1 label{
+  font-size: large;
+}
+.row1 span{
+  font-weight: bold;
+  color:beige;
+}
+.row1 img{
+  margin-top: 10px;
+  width: 200px;
+  margin-left: 130px;
+}
+.row1 a{
+    text-decoration: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #17113b;
+    font-size: large;
+    transition: all 0.1s;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background: rgb(103, 7, 167);
+    border-radius: 60px;
+    margin-left: 165px;
+    color:white;
+  }
+  .row1 a:hover {
+    color: rgb(140,79,237) ;
+    background-color: rgb(217, 195, 247);
+}
+.row1 a.active{
+  background: blue;
+  background-repeat: no-repeat;
+  padding: 8px 25px;
+  border-radius: 60px;
+  color: aliceblue;
+}
+.row1 a.active:hover{
+  color: aqua;
+  background-color: black;
+  box-shadow: 2px 2px 8px gray;
+} */

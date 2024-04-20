@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    background: url(../img/newbg.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header span{
+    cursor: pointer;
+    padding: 8px;
+    padding-right: 10px;
+    font-size:large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 2px solid black;
+    background-color: rgb(140,79,237);
+    color: white;
+    border-radius: 30px;
+    word-spacing: 2px;
+}
+header ul{
+    margin-top:  20px;
+    margin-left: 10px;
+}
+header a{
+    text-decoration: none;
+}
+
+.container{
+    width: 35%;
+    text-align: center;
+    background: url(../img/Asset\ 11.png);
+    background-position: center;
+    margin: auto;
+    margin-top: 110px;
+    border-radius: 50px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 40px 8px rgb(136,13,218);
+    margin-bottom: 100px;
+}
+.container h2{
+    font-size: 2.1vw;
+    padding-top: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform:capitalize;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+}
+.container div{
+   font-size:medium;
+   padding: 10px;
+}
+input{
+    padding: 8px;
+    margin: 3px;
+    margin-left: 15px;
+    width: 45%;
+    border-radius: 6px;
+}
+.Btn{
+    width: 15%;
+    padding: 15px 40px;
+    margin-left: 50px;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 100px;
+    cursor:pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    background-color: rgb(136, 13, 218);
+    width: 40%;   
+}
+.Btn:hover{
+    color: rgb(140,79,237);
+    background-color: rgb(217, 195, 247);
+}
+.container p{
+    color: black;
+    margin-left: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 12px;
+    word-spacing: 2px;
+}
+.container i{
+    padding-right: 5px;
+}
+.container a{
+    color: white;
+}
+.container a:hover{
+    color: blue;
+}
+.SignUp-Form{
+    height: 100%;
+}
+.formerror{
+    color:red;
+}
+@media (max-width: 900px) {
+    .container{
+        width: 50%;
+    }
+    .container h2{
+        font-size: 3vw;
+    }
+    .container div p{
+        font-size: 1.5vw;
+    }
+    .container input{
+        width: 50%;
+        font-size: 1.5vw;
+    }
+   
+    .Forgotpss{
+        font-size: 1.9vw;
+    }
+}

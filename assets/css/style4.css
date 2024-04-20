@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+body{
+    background:url(../img/newbg.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+header span{
+    cursor: pointer;
+    padding: 8px;
+    padding-right: 10px;
+    font-size:large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: 2px solid black;
+    background-color: rgb(136,13,218);
+    border-radius: 10px;
+    word-spacing: 2px;
+}
+header ul{
+    margin-top:  20px;
+    margin-left: 10px;
+}
+header a{
+    text-decoration: none;
+}
+
+.container{
+    border: 2px solid white;
+    width: 40%;
+    margin:auto;
+    margin-top: 150px;
+    background: url(../img/Asset\ 11.png);
+    background-position: center;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0px 0px 40px 8px rgb(136,13,218);
+    border: 2px solid white;
+}
+.container h1{
+    padding: 20px;
+    color: white;
+    font-size: 2vw;
+    margin: 10px;
+    /* padding: 35px;
+    margin-bottom: 5px;     */
+}
+.container input[type="email"]{
+    padding: 6px;
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 35%;
+    margin: 10px;
+}
+
+.container input[type="password"]{
+    width: 35%;
+    padding: 6px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin: 10px;
+
+}
+.container input[type="submit"]{
+    margin-top: 30px;
+    padding: 10px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: rgb(136,13,218);
+    color: #fff;
+    border: 2px solid black;
+    cursor:pointer;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.container .Btn:hover{
+    color: rgb(140,79,237) ;
+    background-color: rgb(217, 195, 247);
+}
+.formerror{
+    color:red;
+    font-size:small;
+}
+@media (max-width: 900px) {
+    .container{
+        width: 50%;
+    }
+    .container h1{
+        font-size: 3vw;
+    }
+   
+    .container input{
+        width: 40%;
+        font-size: 1.5vw;
+    }
+    .Btn{
+        font-size: 1.6vw;
+    }
+    .Forgotpss{
+        font-size: 1.9vw;
+    }
+}
