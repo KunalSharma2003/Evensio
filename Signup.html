@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="./assets/css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="./assets/js/Validation.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <a href="index.php"><span><i class="fa-sharp fa-solid fa-arrow-left"></i> Home</span></a>
+      </ul>
+    </nav>
+  </header>
+
+<form action="Signup.php" class="SignUp-Form" name="myForm" onsubmit="return validateForm()" method="post">
+  <div class="container">
+    <h2>SignUp</h2>
+    <div>
+      <i class="fa-solid fa-user fa-lg"></i>
+      <input type="text" placeholder="FullName" id="Fname" name="username" autocomplete="off" required > <br><b><span id="Name" class="formerror" > </span></b>
+      
+    </div>
+
+    <div>
+     <i class="fa-solid fa-envelope"></i>
+     <input type="email" placeholder="Email" id="Femail" name="email" autocomplete="off" required> <br> <b><span class="formerror" id="Email"> </span></b>
+    </div>
+
+    <div>
+      <i class="fa-solid fa-mobile fa-lg"></i>
+      <input type="tel" placeholder="Mobile-Number" id="Fnum" name="mobilenumber" autocomplete="off" required> <br> <b><span class="formerror" id="Mobile-Number"> </span></b>
+     </div>
+
+    <div>
+     <i class="fa-solid fa-lock fa-lg"></i>
+     <input type="password" placeholder="Password" id="Fpass" name="password" autocomplete="off" required> <br> <b><span class="formerror" id="Password"> </span></b>
+    </div>
+
+    <div>
+      <i class="fa-solid fa-check fa-lg"></i>
+      <input type="password" placeholder="ConfirmPassword" id="Fcpass"  autocomplete="off" required> <br> <b><span class="formerror" id="ConfirmPassword"> </span></b>
+     </div>
+
+     <div>
+      <input type="submit" value="Sign Up" class="Btn" ><br><br>
+      <p>Already have an account? <a href="LoginPage.php"> LogIn</a></p>
+    </div>
+
+  </div>
+</form>
+
+</body>
+</html>
